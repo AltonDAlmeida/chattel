@@ -4,7 +4,7 @@ import ai
 app = Flask(__name__)
 
 # Configure the chatbot with API key
-API_KEY = "AIzaSyC8gHrFqwEcGwOpOymr_7QHK683zeqsWf4"
+API_KEY = "your_api_key"
 ai.configure(api_key=API_KEY)
 
 # Initialize the chatbot model
